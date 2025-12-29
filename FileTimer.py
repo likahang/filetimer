@@ -34,7 +34,7 @@ class FileTimerApp:
         except Exception as e:
             print(f"音效播放失敗: {e}")
 
-    PREVIEW_MAX_SIZE = (480, 250)
+    PREVIEW_MAX_SIZE = (420, 250)
 
     def __init__(self, root):
         self.root = root
